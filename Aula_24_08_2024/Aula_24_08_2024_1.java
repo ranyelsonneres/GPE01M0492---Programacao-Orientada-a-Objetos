@@ -6,8 +6,7 @@ public class Aula_24_08_2024 {
 		//JOptionPane (saída de dados)
 		//Formatos de impressão (printf)
 		//estrutura de controle e repetição
-		//métodos e introducao O.O
-		
+			
 		Scanner sc = new Scanner(System.in);
 		
 			
@@ -22,8 +21,8 @@ public class Aula_24_08_2024 {
 		//%s (string), %d (inteiro), %f (float ou double)
 		System.out.printf("Nome digitado: %s\n",nome);
 		System.out.printf("Número digitado: %.2f",num);
-//		System.out.println("Nome digitado: " + nome);
-//		System.out.print(nome);
+		System.out.println("Nome digitado: " + nome);
+		System.out.print(nome);
 		
 		sc.close();
 		
